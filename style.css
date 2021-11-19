@@ -12,3 +12,34 @@ img:hover{
 .heading{
     color:red;
 }
+
+
+.myBox{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.myBoxFixed{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.myBox:hover{
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
