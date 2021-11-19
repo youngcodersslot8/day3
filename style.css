@@ -1,0 +1,14 @@
+img{
+    border-radius: 0px;
+}
+
+
+
+img:hover{
+    border-radius: 100px;
+    width: 600px;
+}
+
+.heading{
+    color:red;
+}
